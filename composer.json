@@ -1,0 +1,22 @@
+{
+    "name": "shohag/ce-scroll-to-top",
+    "description": "Easy Scroll to Top WordPress plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL2+",
+    "authors": [
+        {
+            "name": "Shazahanul Islam Shohag",
+            "email": "shohag121@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "appsero/client": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shohag\\ScrollToTop\\": "includes/"
+        },
+        "files": []
+    }
+}

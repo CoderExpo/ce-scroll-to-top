@@ -12,7 +12,7 @@
  * Plugin Name:       CEX Scroll To Top
  * Plugin URI:        https://coderexpo.com/
  * Description:       This is a simple Scroll To Top plugin. just active this plugin and get a beautiful scroll to top button in your website.
- * Version:           1.4.0
+ * Version:           1.4.1
  * Requires at least: 5.0
  * Requires PHP:      5.6
  * Author:            Shazahanul Islam Shohag
@@ -27,6 +27,12 @@ if (!defined('ABSPATH')) {
     die;
 }
 
+$autoload = __DIR__ . '/vendor/autoload.php';
+if ( ! file_exists( $autoload ) ) {
+	exit();
+}
+
+require_once $autoload;
 
 final class CEXScrollToTop
 {
@@ -34,7 +40,7 @@ final class CEXScrollToTop
     /**
      * Plugin Current Version.
      */
-    const VERSION = '1.4';
+    const VERSION = '1.4.1';
 
     /**
      * CEXScrollToTop constructor.
@@ -80,6 +86,7 @@ final class CEXScrollToTop
      */
     public function run_functions()
     {
+    	new \Shohag\ScrollToTop\Appsero();
         if ( ! is_admin() ) {
             add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
         }
@@ -108,6 +115,10 @@ final class CEXScrollToTop
         wp_enqueue_script( 'cexscrolltotopactive', CEXSTT_ASSETS .'/js/active.js', array('jquery', 'cexscrolltotop' ), filemtime( CEXSTT_PATH . '/assets/js/active.js' ), true );
         wp_enqueue_style( 'cexscrolltotopfawsam', CEXSTT_ASSETS. '/css/fontawesome.min.css', false );
         wp_enqueue_style( 'cexscrolltotopcssmain', CEXSTT_ASSETS . '/css/style.css', array( 'cexscrolltotopfawsam' ), filemtime( CEXSTT_PATH . '/assets/css/style.css' ) );
+
+    }
+
+	private function appsero() {
 
     }
 
