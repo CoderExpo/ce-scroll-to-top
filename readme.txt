@@ -37,6 +37,9 @@ e.g.
 == Screenshots ==
 
 == Changelog ==
+
+= 1.4.1 =
+Minor bug fix.
 = 1.4 =
 Version Update.
 = 1.2 =
