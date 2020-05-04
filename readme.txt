@@ -3,7 +3,7 @@ Contributors: shohag121
 Tags: Scroll, Scroll up, Scroll to top, jQuery Scroll to top,
 Requires at least: 4.0
 Tested up to: 5.4
-Stable tag: trunk
+Stable tag: 1.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,7 +38,7 @@ e.g.
 
 == Changelog ==
 
-= 1.4.1 =
+= 1.4.2 =
 Minor bug fix.
 = 1.4 =
 Version Update.

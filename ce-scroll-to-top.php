@@ -12,7 +12,7 @@
  * Plugin Name:       CEX Scroll To Top
  * Plugin URI:        https://coderexpo.com/
  * Description:       This is a simple Scroll To Top plugin. just active this plugin and get a beautiful scroll to top button in your website.
- * Version:           1.4.1
+ * Version:           1.4.2
  * Requires at least: 5.0
  * Requires PHP:      5.6
  * Author:            Shazahanul Islam Shohag
@@ -40,7 +40,7 @@ final class CEXScrollToTop
     /**
      * Plugin Current Version.
      */
-    const VERSION = '1.4.1';
+    const VERSION = '1.4.2';
 
     /**
      * CEXScrollToTop constructor.
