@@ -2,8 +2,8 @@
 Contributors: shohag121
 Tags: Scroll, Scroll up, Scroll to top, jQuery Scroll to top,
 Requires at least: 4.0
-Tested up to: 5.4
-Stable tag: 1.4.2
+Tested up to: 5.7
+Stable tag: 1.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,7 +37,9 @@ e.g.
 == Screenshots ==
 
 == Changelog ==
-
+= 1.4.3 =
+Minor bug fix.
+Icon updated.
 = 1.4.2 =
 Minor bug fix.
 = 1.4 =
